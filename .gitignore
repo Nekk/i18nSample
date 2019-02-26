@@ -1,0 +1,6 @@
+.editorconfig
+        angular.1.json
+        e2e/
+        node_modules/
+        package-lock.json
+        src/app/hero/

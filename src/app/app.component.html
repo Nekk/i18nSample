@@ -2,6 +2,10 @@
   Hello i18n!
 </h1>
 
+<!-- <nav>
+  <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+</nav>
+<router-outlet></router-outlet> -->
 
 
 <ng-container i18n>I don't output any element</ng-container>
@@ -25,7 +29,6 @@
 
 <h1 i18n="@@testId">Test</h1><h1 i18n="@@testId">Test</h1>
 
-<!-- <button i18n (click)="onClickChangeLanguage()">Change Language</button> -->
 <button i18n (click)="onClickChangeLanguage('en')">English</button>
 <button i18n (click)="onClickChangeLanguage('th')">Thai</button>
 <button i18n (click)="onClickChangeLanguage('fr')">French</button>

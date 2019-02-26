@@ -12,24 +12,15 @@ if (environment.production) {
 declare const require;
 
 let localeValue = window.localStorage.getItem("localeValue");
+let translations = null;
 
-if(!localeValue){
-  localeValue = "en"
+if(localeValue !== "en"){
+  translations = require(`raw-loader!./locale/messages.${ localeValue }.xlf`);
 }
 
-switch(localeValue){
-  case "en":
-    platformBrowserDynamic().bootstrapModule(AppModule);
-    break;
-  default:
-    const translations = require(`raw-loader!./locale/messages.${ localeValue }.xlf`);
-    platformBrowserDynamic().bootstrapModule(AppModule, {
-      providers: [
-        {provide: TRANSLATIONS, useValue: translations},
-        {provide: TRANSLATIONS_FORMAT, useValue: 'xlf'}
-      ]
-    });
-    break;
-}
-
-
+platformBrowserDynamic().bootstrapModule(AppModule, {
+  providers: [
+    {provide: TRANSLATIONS, useValue: translations},
+    {provide: TRANSLATIONS_FORMAT, useValue: 'xlf'}
+  ]
+});

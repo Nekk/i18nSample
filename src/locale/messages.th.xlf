@@ -9,7 +9,6 @@
 <target>สวัสดี i18n</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">1</context>
         </context-group>
         <note priority="1" from="description">An introduction header for this sample</note>
         <note priority="1" from="meaning">User welcome</note>
@@ -19,7 +18,6 @@
         <target>ไม่มีอะไรออกมา</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="701174153757adf13e7c24a248c8a873ac9f5193" datatype="html">
@@ -27,7 +25,6 @@
         <target>แองกูลาาา โลโก้วว</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d69f6b42305f49332026fef24b40227f02e34594" datatype="html">
@@ -35,7 +32,6 @@
         <target>อัพเดทแล้ว <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5a134dee893586d02bffc9611056b9cadf9abfad" datatype="html">
@@ -43,7 +39,6 @@
         <target>{VAR_PLURAL, plural, =0 {ตอนนี้} =1 {นาทีที่แล้ว} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> นาทีsที่แล้ว} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f99f34ac9bd4606345071bd813858dec29f3b7d1" datatype="html">
@@ -51,7 +46,6 @@
         <target>คนเขียนเป็น<x id="ICU" equiv-text="{gender, select, male {...} female {...} other {...}}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eff74b75ab7364b6fa888f1cbfae901aaaf02295" datatype="html">
@@ -59,7 +53,6 @@
         <target>{VAR_SELECT, select, male {ชาย} female {หญิง} other {อื่นๆ} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="972cb0cf3e442f7b1c00d7dab168ac08d6bdf20c" datatype="html">
@@ -69,7 +62,6 @@
 </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7151c2e67748b726f0864fc443861d45df21d706" datatype="html">
@@ -77,39 +69,34 @@
         <target>{VAR_PLURAL, plural, =0 {ตอนนี้} =1 {นาทีที่แล้ว} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> นาทีs ที่แล้วโดย {VAR_SELECT, select, male {ชาย} female {หญิง} other {อื่นๆ} }} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="testId" datatype="html">
         <source>Test</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">24</context>
         </context-group>
         <target>เทสสสส</target>
       </trans-unit>
-      <trans-unit id="e4caa85607483a250cf6eb521bc21e561b9829f1" datatype="html">
+      <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
         <source>English</source>
         <target>อังกฤษ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dfa2122bad60a327275bd2541fee0f3e97152856" datatype="html">
+      <trans-unit id="e138847cc6ded77c6e876ae9f02c8e7172d7221e" datatype="html">
         <source>Thai</source>
         <target>ไทย</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9882b7e9c3caca8b77a73cff4f0b52773adc8738" datatype="html">
+      <trans-unit id="8293a584b57b870aca184a23bb8039c829acc4cf" datatype="html">
         <source>French</source>
         <target>ฝรั่งเศส</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
     </body>
